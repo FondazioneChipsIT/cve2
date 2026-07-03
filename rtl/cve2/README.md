@@ -16,7 +16,7 @@ Integer Multiplication and Division (M), and Compressed (C) extensions.
 The block diagram below shows the *small* parametrization with a 2-stage
 pipeline.
 
-<p align="center"><img src="doc/03_reference/images/blockdiagram.drawio.svg" width="650"></p>
+<p align="center"><img src="blockdiagram.svg" width="650"></p>
 
 CV32E20 was initially developed as part of the [PULP platform](https://www.pulp-platform.org)
 under the name [&#34;Zero-riscy&#34;](https://doi.org/10.1109/PATMOS.2017.8106976), and has been
@@ -33,16 +33,6 @@ The verification environment for this core as well as other cores in the OpenHW 
 [core-v-verif](https://github.com/openhwgroup/core-v-verif) repository on GitHub.
 
 The Makefiles supported in the **core-v-verif** project automatically clone the appropriate version of the **cve2** RTL sources.
-
-## Librelane Flow
-
-To the RTL-to-GDS Librelane flow can be executed with the following commands:
-
-```
-git submodule update --init --recursive
-cd Flow/scripts/Librelane
-librelane config.yaml
-```
 
 ## Changelog
 
