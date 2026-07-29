@@ -171,8 +171,6 @@ GRT_ALLOW_CONGESTION: true
 GRT_ANTENNA_REPAIR_MARGIN: 30
 RT_MAX_LAYER: TopMetal1
 RT_CLOCK_MAX_LAYER: TopMetal1
-# Potentially leave some antennas after DRT to avoid pin access error bug
-DRT_ANTENNA_REPAIR_ITERS: 0
 
 # Timing
 RUN_POST_CTS_RESIZER_TIMING: True

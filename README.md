@@ -36,12 +36,11 @@ The Makefiles supported in the **core-v-verif** project automatically clone the 
 
 ## Librelane Flow
 
-To the RTL-to-GDS Librelane flow can be executed with the following commands:
+The RTL-to-GDS Librelane flow can be executed with the following commands:
 
 ```
 git submodule update --init --recursive
-cd Flow/scripts/Librelane
-librelane config.yaml
+make librelane
 ```
 
 ## Changelog
