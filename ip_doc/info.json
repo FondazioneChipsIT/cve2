@@ -1,0 +1,19 @@
+{
+    "name": "CV32E20",
+    "design_type": "RISC-V Core",
+    "technology": "IHP 130nm BiCMOS",
+    "unique_id": "",
+    "license": "Apache-2.0",
+    "trl": "5",
+    "repository": "https://github.com/FondazioneChipsIT/cve2",
+    "pdk_version": "22f2a25f1734796de3debbbf29cf697cbbc54081",
+    "process": "SG13G2",
+    "dependencies": {},
+    "tools": {
+        "librelane": "3.0.0",
+        "verilator": "5.046"
+    },
+    "release": {
+        "version": "1.0.0"
+    }
+}
