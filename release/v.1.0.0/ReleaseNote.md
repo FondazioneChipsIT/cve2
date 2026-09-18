@@ -1,0 +1,2 @@
+# CV32E20 release v1.0.0
+This is the first release of the CV32E20 macro, the release targets the Leibniz Institute for High Performance Microelectronics (IHP) 130nm BiCMOS process design kit using the SG13G2 standard-cell library. In addition to the synthesizable RTL implementation, the release includes a placed-and-routed hard macro and the associated logical, physical, timing, and verification views required for integration into a larger design.

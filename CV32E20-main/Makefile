@@ -19,7 +19,7 @@ help: ## Show this help message
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-20s %s\n", $$1, $$2}'
 .PHONY: help
 
-all: ## Run Librelane flow and package the whole chip
+all: ## Run Librelane flow and package the whole macro
 	$(MAKE) init-submodules
 	$(MAKE) librelane
 	$(MAKE) copy-pnr
@@ -35,7 +35,7 @@ copy-results: ## Copy results from Librelane to PlaceAndRoute, synthesis and ver
 
 init-submodules: ## Initialize and update git submodules
 	git -C $(MAKEFILE_DIR) -c safe.directory='*' submodule update --init
-	cd $(LIBRELANE_DIR)/ihp13/pdk && git apply ../verilator_stdcell.patch
+	$(MAKE) $(LIBRELANE_DIR)/ihp13/pdk/.patched
 .PHONY: init-submodules
 
 librelane: ## Run LibreLane with Magic and KLayout DRC checks
@@ -152,3 +152,8 @@ simulate-postsynth: ## Run post synthesis simulation with Verilator
 simulate-postpnr: ## Run post place and route simulation with Verilator
 	cd $(MAKEFILE_DIR)/simulation && ./run_verilator.sh --build-postpnr --run-postpnr ./helloworld.hex
 .PHONY: simulate-postpnr
+
+$(LIBRELANE_DIR)/ihp13/pdk/.patched: $(MAKEFILE_DIR)/Flow/scripts/Librelane/ihp13/verilator_stdcell.patch
+	cd $(LIBRELANE_DIR)/ihp13/pdk && git apply $<
+	touch $@
+
