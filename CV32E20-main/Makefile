@@ -142,15 +142,15 @@ copy-verification: ## Copy verification reports to verification/
 .PHONY: copy-verification
 
 simulate-rtl: ## Run RTL simulation with Verilator
-	cd $(MAKEFILE_DIR)/simulation && ./run_verilator.sh --build-rtl --run-rtl ./helloworld.hex
+	cd $(MAKEFILE_DIR)/testbench && ./run_verilator.sh --build-rtl --run-rtl ./helloworld.hex
 .PHONY: simulate-rtl
 
 simulate-postsynth: ## Run post synthesis simulation with Verilator
-	cd $(MAKEFILE_DIR)/simulation && ./run_verilator.sh --build-postsynth --run-postsynth ./helloworld.hex
+	cd $(MAKEFILE_DIR)/testbench && ./run_verilator.sh --build-postsynth --run-postsynth ./helloworld.hex
 .PHONY: simulate-postsynth
 
 simulate-postpnr: ## Run post place and route simulation with Verilator
-	cd $(MAKEFILE_DIR)/simulation && ./run_verilator.sh --build-postpnr --run-postpnr ./helloworld.hex
+	cd $(MAKEFILE_DIR)/testbench && ./run_verilator.sh --build-postpnr --run-postpnr ./helloworld.hex
 .PHONY: simulate-postpnr
 
 $(LIBRELANE_DIR)/ihp13/pdk/.patched: $(MAKEFILE_DIR)/Flow/scripts/Librelane/ihp13/verilator_stdcell.patch
