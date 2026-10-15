@@ -32,7 +32,7 @@ The architecture of CV32E20 is summarized in
 Figure [1](#fig:cve2_architecture).
 
 <figure id="fig:cve2_architecture" data-latex-placement="htbp">
-<img src="../doc/03_reference/images/blockdiagram.drawio.svg" style="width:95.0%" />
+<img src="blockdiagram.svg" style="width:95.0%" />
 <figcaption>Architecture of CV32E20 from: <a
 href="https://docs.openhwgroup.org/projects/cve2-user-manual/en/latest/01_specification/index.html">OpenHW
 Documentation</a></figcaption>
