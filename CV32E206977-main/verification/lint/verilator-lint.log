@@ -1,0 +1,305 @@
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/rr_arb_tree.sv:217:12: Instance pin connected by name with empty reference: 'empty_o'
+  217 |           .empty_o (    )
+      |            ^~~~~~~
+                          ... For warning description see https://verilator.org/warn/PINCONNECTEMPTY?v=5.044
+                          ... Use "/* verilator lint_off PINCONNECTEMPTY */" and lint_on around source to disable this message.
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/shift_reg.sv:34:10: Instance pin connected by name with empty reference: 'valid_o'
+   34 |         .valid_o(),
+      |          ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/clk_int_div_static.sv:90:6: Instance pin connected by name with empty reference: 'div_ready_o'
+   90 |     .div_ready_o  (           ),
+      |      ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/clk_int_div_static.sv:92:6: Instance pin connected by name with empty reference: 'cycl_count_o'
+   92 |     .cycl_count_o (           )
+      |      ^~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/trip_counter.sv:43:10: Instance pin connected by name with empty reference: 'overflow_o'
+   43 |         .overflow_o()
+      |          ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/cb_filter.sv:225:8: Instance pin connected by name with empty reference: 'hash_o'
+  225 |       .hash_o        (           ),  
+      |        ^~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/cdc_fifo_2phase.sv:129:6: Instance pin connected by name with empty reference: 'src_ready_o'
+  129 |     .src_ready_o (            ),
+      |      ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/cdc_fifo_2phase.sv:133:6: Instance pin connected by name with empty reference: 'dst_valid_o'
+  133 |     .dst_valid_o (            ),
+      |      ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/cdc_fifo_2phase.sv:142:6: Instance pin connected by name with empty reference: 'src_ready_o'
+  142 |     .src_ready_o (            ),
+      |      ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/cdc_fifo_2phase.sv:146:6: Instance pin connected by name with empty reference: 'dst_valid_o'
+  146 |     .dst_valid_o (            ),
+      |      ^~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/clk_mux_glitch_free.sv:150:8: Instance pin connected by name with empty reference: 'init_no'
+  150 |       .init_no     (                   )
+      |        ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/edge_detect.sv:29:10: Instance pin connected by name with empty reference: 'serial_o'
+   29 |         .serial_o (        )
+      |          ^~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/stream_delay.sv:104:16: Instance pin connected by name with empty reference: 'refill_way_oh'
+  104 |               .refill_way_oh  (              ),
+      |                ^~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/stream_delay.sv:122:14: Instance pin connected by name with empty reference: 'overflow_o'
+  122 |             .overflow_o (              )
+      |              ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/fall_through_register.sv:47:10: Instance pin connected by name with empty reference: 'usage_o'
+   47 |         .usage_o        (),
+      |          ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/id_queue.sv:174:10: Instance pin connected by name with empty reference: 'empty_o'
+  174 |         .empty_o (                    )
+      |          ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/id_queue.sv:187:10: Instance pin connected by name with empty reference: 'empty_o'
+  187 |         .empty_o (                      )
+      |          ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/stream_to_mem.sv:101:8: Instance pin connected by name with empty reference: 'usage_o'
+  101 |       .usage_o    (       )
+      |        ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/stream_arbiter_flushable.sv:52:8: Instance pin connected by name with empty reference: 'idx_o'
+   52 |       .idx_o  ()
+      |        ^~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/stream_arbiter_flushable.sv:73:8: Instance pin connected by name with empty reference: 'idx_o'
+   73 |       .idx_o  ()
+      |        ^~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/mem_to_banks_detailed.sv:144:8: Instance pin connected by name with empty reference: 'usage_o'
+  144 |       .usage_o    (),
+      |        ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/mem_to_banks_detailed.sv:186:8: Instance pin connected by name with empty reference: 'usage_o'
+  186 |       .usage_o    (),
+      |        ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/mem_to_banks_detailed.sv:211:8: Instance pin connected by name with empty reference: 'usage_o'
+  211 |       .usage_o    (),
+      |        ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/stream_omega_net.sv:239:12: Instance pin connected by name with empty reference: 'idx_o'
+  239 |           .idx_o   (           ),
+      |            ^~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/mem_to_banks.sv:107:6: Instance pin connected by name with empty reference: 'ruser_o'
+  107 |     .ruser_o      (),
+      |      ^~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:770:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  770 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:784:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  784 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:802:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  802 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:816:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  816 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:830:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  830 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:844:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  844 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:857:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  857 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:877:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  877 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:891:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  891 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:905:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  905 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:919:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  919 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:934:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  934 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:948:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  948 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:962:6: Instance pin connected by name with empty reference: 'rd_error_o'
+  962 |     .rd_error_o()
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:1218:6: Instance pin connected by name with empty reference: 'counter_val_upd_o'
+ 1218 |     .counter_val_upd_o()
+      |      ^~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:1234:6: Instance pin connected by name with empty reference: 'counter_val_upd_o'
+ 1234 |     .counter_val_upd_o()
+      |      ^~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:1364:8: Instance pin connected by name with empty reference: 'rd_error_o'
+ 1364 |       .rd_error_o()
+      |        ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:1378:10: Instance pin connected by name with empty reference: 'rd_error_o'
+ 1378 |         .rd_error_o()
+      |          ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_cs_registers.sv:1391:10: Instance pin connected by name with empty reference: 'rd_error_o'
+ 1391 |         .rd_error_o()
+      |          ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:149:6: Instance pin connected by name with empty reference: 'x_issue_valid_o'
+  149 |     .x_issue_valid_o     (),
+      |      ^~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:151:6: Instance pin connected by name with empty reference: 'x_issue_req_o'
+  151 |     .x_issue_req_o       (),
+      |      ^~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:153:6: Instance pin connected by name with empty reference: 'x_register_o'
+  153 |     .x_register_o        (),
+      |      ^~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:154:6: Instance pin connected by name with empty reference: 'x_commit_valid_o'
+  154 |     .x_commit_valid_o    (),
+      |      ^~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:155:6: Instance pin connected by name with empty reference: 'x_commit_o'
+  155 |     .x_commit_o          (),
+      |      ^~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:157:6: Instance pin connected by name with empty reference: 'x_result_ready_o'
+  157 |     .x_result_ready_o    (),
+      |      ^~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:166:6: Instance pin connected by name with empty reference: 'irq_pending_o'
+  166 |     .irq_pending_o       (),
+      |      ^~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:170:6: Instance pin connected by name with empty reference: 'debug_halted_o'
+  170 |     .debug_halted_o      (),
+      |      ^~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:173:6: Instance pin connected by name with empty reference: 'crash_dump_o'
+  173 |     .crash_dump_o        (),
+      |      ^~~~~~~~~~~~
+%Warning-GENUNNAMED: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/popcount.sv:31:5: Unnamed generate block 'genblk1' (IEEE 1800-2023 27.6)
+                                                                                                  : ... Suggest assign a label with 'begin : gen_<label_name>'
+   31 |     $error("INPUT_WIDTH must be larger or equal to 1.");
+      |     ^~~~~~
+                     ... For warning description see https://verilator.org/warn/GENUNNAMED?v=5.044
+                     ... Use "/* verilator lint_off GENUNNAMED */" and lint_on around source to disable this message.
+%Warning-GENUNNAMED: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/clk_mux_glitch_free.sv:92:5: Unnamed generate block 'genblk1' (IEEE 1800-2023 27.6)
+                                                                                                             : ... Suggest assign a label with 'begin : gen_<label_name>'
+   92 |     $error("Num inputs must be parametrized to a value >= 2.");
+      |     ^~~~~~
+%Warning-GENUNNAMED: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/cdc_fifo_gray_clearable.sv:153:7: Unnamed generate block 'genblk1' (IEEE 1800-2023 27.6)
+                                                                                                                  : ... Suggest assign a label with 'begin : gen_<label_name>'
+  153 |       $error("The clearable CDC FIFO with async reset synchronization requires at least",
+      |       ^~~~~~
+%Warning-GENUNNAMED: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/cdc_2phase_clearable.sv:93:7: Unnamed generate block 'genblk1' (IEEE 1800-2023 27.6)
+                                                                                                              : ... Suggest assign a label with 'begin : gen_<label_name>'
+   93 |       $error("The clearable 2-phase CDC with async reset",
+      |       ^~~~~~
+%Warning-GENUNNAMED: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/gray_to_binary.sv:21:5: Unnamed generate block 'genblk1' (IEEE 1800-2023 27.6)
+                                                                                                        : ... Suggest assign a label with 'begin : gen_<label_name>'
+   21 |     for (genvar i = 0; i < N; i++)
+      |     ^~~
+%Warning-WIDTHEXPAND: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:905:128: Operator INSIDE expects 32 bits on the Inside expression, but Inside expression's VARREF 'rf_wdata_sel' generates 1 bits.
+                                                                                                   : ... note: In instance 'CV32E20.i_core.id_stage_i'
+  905 |   IbexRegfileWdataSelValid: assert property (@(posedge  clk_i) disable iff (( !rst_ni) !== '0) (instr_valid_i |-> rf_wdata_sel inside {        RF_WD_EX,        RF_WD_CSR}))                    
+      |                                                                                                                                ^~~~~~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.044
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-UNUSEDPARAM: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/common_cells/cb_filter_pkg.sv:21:30: Parameter is not used: 'EgSeeds'
+                                                                                                         : ... note: In instance 'CV32E20'
+   21 |   localparam cb_seed_t [2:0] EgSeeds = '{
+      |                              ^~~~~~~
+                      ... For warning description see https://verilator.org/warn/UNUSEDPARAM?v=5.044
+                      ... Use "/* verilator lint_off UNUSEDPARAM */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:180:16: Signal is not used: 'rf_ren_a'
+                                                                                               : ... note: In instance 'CV32E20.i_core'
+  180 |   logic        rf_ren_a;
+      |                ^~~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=5.044
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:181:16: Signal is not used: 'rf_ren_b'
+                                                                                               : ... note: In instance 'CV32E20.i_core'
+  181 |   logic        rf_ren_b;
+      |                ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:107:37: Signal is not used: 'hart_id_i'
+                                                                                                   : ... note: In instance 'CV32E20.i_core.id_stage_i'
+  107 |   input  logic [31:0]               hart_id_i,
+      |                                     ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:16:33: Signal is not used: 'clk_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   16 |   input  logic                  clk_i,
+      |                                 ^~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:17:33: Signal is not used: 'rst_ni'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   17 |   input  logic                  rst_ni,
+      |                                 ^~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:26:33: Signal is not used: 'multdiv_operator_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   26 |   input  cve2_pkg::md_op_e      multdiv_operator_i,
+      |                                 ^~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:27:33: Signal is not used: 'mult_en_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   27 |   input  logic                  mult_en_i,              
+      |                                 ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:28:33: Signal is not used: 'div_en_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   28 |   input  logic                  div_en_i,               
+      |                                 ^~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:29:33: Signal is not used: 'mult_sel_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   29 |   input  logic                  mult_sel_i,             
+      |                                 ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:30:33: Signal is not used: 'div_sel_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   30 |   input  logic                  div_sel_i,              
+      |                                 ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:31:33: Signal is not used: 'multdiv_signed_mode_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   31 |   input  logic  [1:0]           multdiv_signed_mode_i,
+      |                                 ^~~~~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:32:33: Signal is not used: 'multdiv_operand_a_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   32 |   input  logic [31:0]           multdiv_operand_a_i,
+      |                                 ^~~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:33:33: Signal is not used: 'multdiv_operand_b_i'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   33 |   input  logic [31:0]           multdiv_operand_b_i,
+      |                                 ^~~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:54:16: Signal is not used: 'alu_adder_result_ext'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   54 |   logic [33:0] alu_adder_result_ext;
+      |                ^~~~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_ex_block.sv:55:32: Signal is not used: 'alu_is_equal_result'
+                                                                                                  : ... note: In instance 'CV32E20.i_core.ex_block_i'
+   55 |   logic        alu_cmp_result, alu_is_equal_result;
+      |                                ^~~~~~~~~~~~~~~~~~~
+%Warning-SYNCASYNCNET: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/CV32E20.sv:42:16: Signal flopped as both synchronous and async: 'rst_ni'
+                       /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_if_stage.sv:240:10: ... Location of async usage
+  240 |     if (!rst_ni) begin
+      |          ^~~~~~
+                       /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:682:84: ... Location of sync usage
+  682 |   NoMemRFWriteWithoutPendingLoad: assert property (@(posedge clk_i) disable iff ((!rst_ni) !== '0) (rf_we_lsu |-> outstanding_load_id))                    
+      |                                                                                    ^~~~~~
+                       ... For warning description see https://verilator.org/warn/SYNCASYNCNET?v=5.044
+                       ... Use "/* verilator lint_off SYNCASYNCNET */" and lint_on around source to disable this message.
+%Warning-UNOPTFLAT: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:196:16: Signal unoptimizable: Circular combinational logic: 'CV32E20.i_core.id_stage_i.instr_executing'
+  196 |   logic        instr_executing;
+      |                ^~~~~~~~~~~~~~~
+                    ... For warning description see https://verilator.org/warn/UNOPTFLAT?v=5.044
+                    ... Use "/* verilator lint_off UNOPTFLAT */" and lint_on around source to disable this message.
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:196:16:      Example path: CV32E20.i_core.id_stage_i.instr_executing
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:713:3:      Example path: ALWAYS
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:240:16:      Example path: CV32E20.i_core.id_stage_i.stall_alu
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:828:19:      Example path: ASSIGNW
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:203:16:      Example path: CV32E20.i_core.id_stage_i.stall_id
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:318:3:      Example path: ALWAYS
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:127:9:      Example path: CV32E20.i_core.id_stage_i.controller_i.halt_if
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:719:24:      Example path: ASSIGNW
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:231:16:      Example path: CV32E20.i_core.id_in_ready
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:318:3:      Example path: ALWAYS
+%Warning-UNOPTFLAT: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:231:16: Signal unoptimizable: Circular combinational logic: 'CV32E20.i_core.id_in_ready'
+  231 |   logic        id_in_ready;
+      |                ^~~~~~~~~~~
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:231:16:      Example path: CV32E20.i_core.id_in_ready
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:318:3:      Example path: ALWAYS
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:127:9:      Example path: CV32E20.i_core.id_stage_i.controller_i.halt_if
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:719:24:      Example path: ASSIGNW
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:231:16:      Example path: CV32E20.i_core.id_in_ready
+%Warning-UNOPTFLAT: /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_wb.sv:19:36: Signal unoptimizable: Circular combinational logic: 'CV32E20.i_core.wb_i.en_wb_i'
+   19 |   input  logic                     en_wb_i,
+      |                                    ^~~~~~~
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_wb.sv:19:36:      Example path: CV32E20.i_core.wb_i.en_wb_i
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_id_stage.sv:649:34:      Example path: ASSIGNW
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:215:16:      Example path: CV32E20.i_core.csr_op_en
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:223:22:      Example path: ASSIGNW
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:133:9:      Example path: CV32E20.i_core.id_stage_i.controller_i.special_req
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:318:3:      Example path: ALWAYS
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:127:9:      Example path: CV32E20.i_core.id_stage_i.controller_i.halt_if
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:719:24:      Example path: ASSIGNW
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_core.sv:231:16:      Example path: CV32E20.i_core.id_in_ready
+                    /home/ridolfi/decide_cve2/cve2/CV32E20-main/rtl/cve2/cve2_controller.sv:318:3:      Example path: ALWAYS
+- V e r i l a t i o n   R e p o r t: Verilator 5.044 2026-01-01 rev v5.040
+- Verilator: Built from 55.488 MB sources in 241 modules, into 0.911 MB in 3 C++ files needing 0.000 MB
+- Verilator: Walltime 0.717 s (elab=0.111, cvt=0.327, bld=0.000); cpu 0.667 s on 1 threads; alloced 52.062 MB

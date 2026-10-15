@@ -12,7 +12,7 @@
     "design__max_cap_violation__count__corner:nom_fast_1p32V_m40C": 0,
     "power__internal__total": 0.017736464738845825,
     "power__switching__total": 0.012212134897708893,
-    "power__leakage__total": 1.2597010936588049e-05,
+    "power__leakage__total": 1.2597009117598645e-05,
     "power__total": 0.029961196705698967,
     "clock__skew__worst_hold__corner:nom_fast_1p32V_m40C": -0.13641972659869067,
     "clock__skew__worst_setup__corner:nom_fast_1p32V_m40C": 0.13926236946691198,

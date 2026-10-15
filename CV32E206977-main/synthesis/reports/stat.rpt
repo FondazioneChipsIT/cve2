@@ -1,0 +1,62 @@
+182. Printing statistics.
+
+=== CV32E20 ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+    13027        - wires
+    13231        - wire bits
+     1856        - public wires
+     2060        - public wire bits
+       25        - ports
+      229        - port bits
+    13106 2.11E+05 cells
+      140 1.78E+03   sg13g2_a21o_1
+        1   14.515   sg13g2_a21o_2
+      733 6.65E+03   sg13g2_a21oi_1
+        6   87.091   sg13g2_a21oi_2
+      229 3.32E+03   sg13g2_a221oi_1
+      545 5.91E+03   sg13g2_a22oi_1
+      207 1.88E+03   sg13g2_and2_1
+       65  825.552   sg13g2_and3_1
+        4   50.803   sg13g2_and3_2
+       47  682.214   sg13g2_and4_1
+     1083 7.86E+03   sg13g2_buf_1
+        6   272.16   sg13g2_buf_16
+      223 2.02E+03   sg13g2_buf_2
+      116 1.68E+03   sg13g2_buf_4
+       60 1.42E+03   sg13g2_buf_8
+     1791 8.77E+04   sg13g2_dfrbpq_1
+      252 1.37E+03   sg13g2_inv_1
+        7   50.803   sg13g2_inv_2
+      963 1.75E+04   sg13g2_mux2_1
+        1   19.958   sg13g2_mux2_2
+      403 1.54E+04   sg13g2_mux4_1
+     1832 1.33E+04   sg13g2_nand2_1
+        3   32.659   sg13g2_nand2_2
+      273 2.48E+03   sg13g2_nand2b_1
+      298  2.7E+03   sg13g2_nand3_1
+       51  647.741   sg13g2_nand3b_1
+      148 1.61E+03   sg13g2_nand4_1
+      834 6.05E+03   sg13g2_nor2_1
+        6   65.318   sg13g2_nor2_2
+      126 1.14E+03   sg13g2_nor2b_1
+        4   50.803   sg13g2_nor2b_2
+      187  1.7E+03   sg13g2_nor3_1
+        8  130.637   sg13g2_nor3_2
+      117 1.27E+03   sg13g2_nor4_1
+       17  370.138   sg13g2_nor4_2
+     1773 1.61E+04   sg13g2_o21ai_1
+      136 1.23E+03   sg13g2_or2_1
+       48  609.638   sg13g2_or3_1
+        1   14.515   sg13g2_or3_2
+       26  377.395   sg13g2_or4_1
+        1    16.33   sg13g2_or4_2
+        4    29.03   sg13g2_tielo
+      250   3628.8   sg13g2_xnor2_1
+       81 1.18E+03   sg13g2_xor2_1
+
+   Chip area for module '\CV32E20': 211186.445400
+     of which used for sequential elements: 87738.940800 (41.55%)
+
